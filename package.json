@@ -1,0 +1,36 @@
+{
+  "name": "@xlab-pkg/graphql-merge-cli",
+  "version": "0.2.1",
+  "description": "CLI to merge graphql schemas into a single schema",
+  "bin": {
+    "graphql-merge-cli": "cli.js"
+  },
+  "scripts": {
+    "test": "mocha test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xlab/graphql-merge-cli.git"
+  },
+  "keywords": [
+    "graphql",
+    "schema",
+    "merge",
+    "cli"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xlab/graphql-merge-cli/issues"
+  },
+  "homepage": "https://github.com/xlab/graphql-merge-cli#readme",
+  "dependencies": {
+    "@graphql-tools/load-files": "^6.6.1",
+    "@graphql-tools/merge": "^8.3.6",
+    "commander": "^9.4.0",
+    "graphql": "^16.6.0"
+  },
+  "devDependencies": {
+    "mocha": "^10.0.0"
+  }
+}
